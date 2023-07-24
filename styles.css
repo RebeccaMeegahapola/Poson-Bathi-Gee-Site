@@ -1,0 +1,484 @@
+.body1 {
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.body2 {
+    overflow-y: hidden;
+}
+
+.main1{
+    padding: 0px;
+}
+
+.img1{
+    position: fixed;
+    right: 0%;
+    top: 28%;
+    z-index: -1!important;
+    width: 25%;
+}
+
+#pdf-container{
+    text-align: center;
+}
+
+#podium {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: #333;
+    margin: auto;
+}
+
+#podium:before {
+    content: "";
+    position: absolute;
+    border-bottom: 80px solid #333;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 200px;
+    bottom: 100%;
+    left: 0;
+}
+
+.heading3{
+    font-size: 40px;
+    color: black;
+    margin: 5px 0px 8px;
+    font-weight: 600;
+    text-align: center;
+    /*font-family: 'Noto Sans', sans-serif;*/
+    font-family: 'Literata', serif;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin: 20px 20px 10px;
+}
+
+.div1{
+    clear: both;
+}
+
+.footer{
+    background-color: white;
+    height: 90px;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    padding: 0px;
+}
+
+.cbctsiconlogo{
+    margin-left: 10px;
+}
+
+#pdf-container canvas{
+    width: 892px!important;
+    height: 1263px!important;
+}
+
+.card-body{
+    font-size: 25px;
+}
+
+.container{
+    width: 820px;
+    padding: 20px 10px 10px 60px;
+}
+
+h3{
+    font-weight: 700;
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #777;
+  }
+
+  .back-button {
+    background-color: yellow;
+    color: black;
+    /* border-color: black; */
+    border-radius: 48%;
+    width: 50px;
+    margin: 30px 0px 0px 50px;
+    font-weight: bold;
+  }
+
+  .back-button:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+
+  .back-button i {
+    margin-right: 5px;
+  }
+
+  .container-fluid{
+    padding: 0px;
+  }
+
+  .footer1{
+    background-color: white;
+    /* height: 90px; */
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: -58px;
+}
+
+  .home-img{
+    width: 100%;
+    height: 630px;
+  }
+
+  .next{
+    position: absolute;
+    top: 73%;
+    right: 36%;
+    width: 140px;
+    height: 44px;
+  }
+
+  .next1{
+    width: 140px;
+    height: 44px;
+  }
+
+   .text1{
+        position: absolute;
+        top: 10%;
+        text-align: center;
+        font-size: 32px;
+        left: 28%;
+        font-weight: 600;
+        color: #3333a6;
+    }
+
+    .text2{
+        position: absolute;
+        top: 21%;
+        text-align: center;
+        font-size: 65px;
+        left: 46%;
+        font-weight: 600;
+        color: #3333a6;
+    }
+
+    .text3{
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        font-size: 32px;
+        left: 32%;
+        font-weight: 600;
+        color: #3333a6;
+    }
+
+    .text4{
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        font-size: 32px;
+        left: 50%;
+        font-weight: 600;
+        color: #3333a6;
+    }
+    .text5{
+        position: absolute;
+        top: 63%;
+        text-align: center;
+        font-size: 32px;
+        left: 31%;
+        font-weight: 600;
+        color: #3333a6;
+    }
+
+    .logo1{
+        position: absolute;
+        top: 76%;
+        right: 5%;
+        width: 15%;
+    }
+
+    
+
+
+@media only screen and (max-width: 600px) {
+    #pdf-container canvas{
+        width: 340px!important;
+    }
+
+    .cbctsiconlogo{
+        width: 140px;
+        margin-top: 10px;
+    }
+
+    .logo{
+        width: 40%;
+    }
+
+    .heading3 {
+        font-size: 35px;
+        margin: 60px 0px 8px;
+    }
+
+    .footer{
+        height: 100px!important;
+    }
+
+    .img1{
+        top: 1%;
+        width: 35%;
+        left: 0%;
+    }
+
+    .container{
+        width: 350px;
+        padding: 20px 10px 10px 10px;
+    }
+
+    .card-body{
+        font-size: 22px;
+    }
+
+    #scrollToTopBtn {
+        right: 10px;
+    }
+
+    /*.back-button {
+        width: 40px;
+        margin: 21px 0px 0px 20px;
+        height: 35px;
+    }*/
+
+    .text1 {
+        top: 15%;
+        font-size: 20px;
+        left: 0%;
+    }
+
+    .text2 {
+        top: 25%;
+        font-size: 36px;
+        left: 24%;
+    }
+
+    .text3 {
+        top: 34%;
+        font-size: 20px;
+        left: 2%;
+    }
+
+    .text4 {
+        top: 45%;
+        font-size: 20px;
+        left: 30%;
+    }
+
+    .text5 {
+        top: 52%;
+        font-size: 20px;
+        left: 5%;
+    }
+
+    .logo1{
+        width: 36%;
+        top: 4%;
+    }
+
+    .home-img {
+        width: 100%;
+        height: 780px;
+    }
+
+    .next {
+        position: absolute;
+        top: 61%;
+        right: 35%;
+        width: 120px;
+        height: 40px;
+    }
+
+    .next1{
+        margin-top: 17px;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+/*@media only screen and (min-width: 768px) {
+    #pdf-container canvas{
+        width: 690px!important;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+    .footer{
+        height: 80px;
+    }
+
+    .img1{
+        top: 5%;
+    } 
+    
+
+}*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #pdf-container canvas{
+        width: 690px!important;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+    .footer{
+        height: 80px;
+    }
+
+    .img1{
+        top: 5%;
+    } 
+
+    .container{
+        width: 750px;
+        padding: 20px 10px 10px 60px;
+    }
+
+    .card-body{
+        font-size: 25px;
+    }
+
+    #scrollToTopBtn {
+        bottom: 10px;
+    }
+
+    .logo1{
+        width: 32%;
+        top: 5%;
+    }
+
+    .text1 {
+        top: 15%;
+        left: 0%;
+    }
+
+    .text2 {
+        top: 30%;
+        left: 26%;
+    }
+
+    .text3 {
+        top: 45%;
+        left: 4%;
+    }
+
+    .text4 {
+        top: 58%;
+        left: 35%;
+    }
+
+    .text5 {
+        top: 66%;
+        font-size: 32px;
+        left: 1%;
+    }
+
+    .home-img {
+        width: 100%;
+        height: 910px;
+    }
+
+    .next {
+        position: absolute;
+        top: 3%;
+        right: 73%;
+    }
+
+    
+}
+
+
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+    #pdf-container canvas{
+        width: 525px!important;
+    }
+
+    .img1{
+        top: 0%!important;
+        width: 35%;
+    }
+
+    
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .text1 {
+        top: 15%;
+        left: 7%;
+    }
+
+    .text2 {
+        top: 25%;
+        left: 35%;
+    }
+
+    .text3 {
+        top: 39%;
+        left: 13%;
+    }
+
+    .text4 {
+        top: 49%;
+        left: 41%;
+    }
+
+    .text5 {
+        top: 60%!important;
+        font-size: 32px;
+        left: 9%;
+    }
+
+    .next{
+        top: 2%;
+    }
+
+}
+
+
+
